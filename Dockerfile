@@ -1,7 +1,5 @@
-FROM centos/s2i-base-centos7
-
-# This image provides an Apache+PHP environment for running PHP
-# applications.
+FROM centos:latest
 
 EXPOSE 8080
-EXPOSE 8443
+
+ENTRYPOINT ["/bin/ping","-c","3"]
