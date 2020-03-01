@@ -14,4 +14,4 @@ RUN yum install java-1.8.0-openjdk
 EXPOSE 80
 
 # Set the default command to run on boot
-ENTRYPOINT ['/bin/bash']
+ENTRYPOINT ["/bin/bash"]
