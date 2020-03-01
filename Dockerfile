@@ -14,4 +14,4 @@ RUN yum -y update && yum clean all
 EXPOSE 80
 
 # Set the default command to run on boot
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/bash"]
